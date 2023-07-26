@@ -21,9 +21,10 @@ body {
     height: 100%;
     background-image: url(img/BG-1.jpg);
     background-position: center;
+    size-adjust: auto;
     background-size: cover;
     scroll-behavior: auto;
-    z-index: -1;
+    z-index: -2;
     filter: brightness(60%);
 
 }
@@ -89,7 +90,7 @@ body {
     background-image: url(img/BG-2.jpg);
     background-size: cover;
     min-height: 100vh;
-    margin-top: -7rem;
+    margin-top: -6.3rem;
     padding-top: 15rem;
     padding-bottom: 5rem;
 }
@@ -105,9 +106,27 @@ body {
 
 .home h3 {
     color: var(--bg);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
 
+}
+
+.home h4 {
+    font-size: 1.4rem;
+}
+
+.home .couple {
+    margin-top: 100px;
+}
+
+.home .couple h3 {
+    font-family: 'sacramento';
+    font-size: 2.4rem;
+    color: var(--brown);
+}
+
+.home .couple img {
+    width: 100%;
 }
 
 
